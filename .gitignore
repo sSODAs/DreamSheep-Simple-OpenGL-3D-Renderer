@@ -1,0 +1,26 @@
+# CMake
+build/
+build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+*.cmake
+
+# VS / MSVC
+.vs/
+*.vcxproj*
+*.sln
+
+# Compiled
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.o
+*.a
+
+# OS cruft
+.DS_Store
+Thumbs.db
+out

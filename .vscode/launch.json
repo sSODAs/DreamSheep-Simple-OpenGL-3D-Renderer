@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug (Windows - MSVC)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "cwd": "${command:cmake.getLaunchTargetDirectory}",
+      "console": "integratedTerminal",
+      "preLaunchTask": "Build (CMake preset)"
+    },
+    {
+      "name": "Debug (macOS - LLDB)",
+      "type": "cppdbg",
+      "request": "launch",
+      "MIMode": "lldb",
+      "program": "${command:cmake.launchTargetPath}",
+      "cwd": "${command:cmake.getLaunchTargetDirectory}",
+      "externalConsole": false,
+      "preLaunchTask": "Build (CMake preset)"
+    },
+    {
+      "name": "Debug (Linux - GDB)",
+      "type": "cppdbg",
+      "request": "launch",
+      "MIMode": "gdb",
+      "program": "${command:cmake.launchTargetPath}",
+      "cwd": "${command:cmake.getLaunchTargetDirectory}",
+      "externalConsole": false,
+      "preLaunchTask": "Build (CMake preset)"
+    }
+  ]
+}
