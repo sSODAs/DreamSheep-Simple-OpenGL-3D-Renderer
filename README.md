@@ -1,4 +1,4 @@
-# DreamSheep-Simple-OpenGL-3D-Renderer
+# DreamSheep Simple OpenGL 3D Renderer
 
 <img src="images/preview.png" width="400"> <img src="images/ref.jpg" width="305">
 
